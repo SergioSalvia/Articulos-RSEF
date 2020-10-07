@@ -8,7 +8,7 @@ redirect-from:
 ---
 
 
-# Memristores: ¿neuronas para tu ordenador? (Parte I)
+# Memristores: ¿neuronas para tu ordenador?
 
 Desde *Blade runner* o la *Saga fundación*, a los humanos siempre nos ha gustado imaginar ordenadores casi humanos, capaces de pensar y aprender de forma independiente y
 que se plantean el significado de la vida (normalmente con desastrosas consecuencias). A pesar de ello, llevamos bastante tiempo fallando en nuestras premoniciones distópicas
@@ -54,24 +54,6 @@ Todos los ordenadores que hay actualmente en el mercado y disponibles para cualq
 
 El aspecto principal de este tipo de ordenadores es que la unidad de procesamiento, la CPU, (es decir, el lugar en el que se realizan las operaciones lógicas, donde tu ordenador «piensa») está separado físicamente de la memoria, el lugar donde se almacena la información. Esto supone un grandísimo inconveniente, que en los últimos años ha empezado a preocupar a los científicos que se dedican a la computación. Tal y como están diseñados nuestros ordenadores, la CPU y la memoria tienen que estar intercambiando información **constantemente**, y ese flujo de información consume más tiempo que muchas actividades que tiene que realizar la CPU. Sería algo así como que tu profesor en un examen te mandara hacer una multiplicación, pero te ordenara entregar la respuesta en papel a un profesor en Pekín; la respuesta la podrás obtener rápido, pero pierdes muchísimo tiempo en el viaje. Este problema se llama **cuello de botella de von Neumann** (en inglés *von Neumann bottleneck*), y es otro de los motivos por los que los memristores podrían suponer una revolución a nivel computacional, ya que en principio, como veremos más adelante, no tienen este problema. Este cuello de botella supone una gran desventaja para nuestras inteligencias artificiales, ya que su velocidad se ve mermada.
 
-### Algunas conclusiones por el momento...
-
-De momento hemos aprendido cómo aprende nuestro cerebro, y hemos hecho frente a una de las grandes limitaciones a las que nuestros dispositivos deben hacer frente: el cuello de botella de von Neumann. Podemos empezar a ver así algunas diferencias cruciales entre ordenadores y cerebros, en concreto, la separación entre procesado de información y memoria, que zancadillea a los primeros. Pero... ¿qué hay de los memristores? Hablaremos de ellos en la siguiente parte de nuestro artículo, así podemos mantener un poco de suspense... ¡que siempre alegra la vida!, dejar reposar estas ideas, y volver con fuerza para enfrentarnos al as que guardaba la ciencia bajo la manga, para ayudar a nuestros «pobres» ordenadores en esta lucha contra sus propias limitaciones.
-
----
-
-<a name="foot1">1</a>: Aquí hablamos del calcio, pero en general se dan un conjunto de corrientes iónicas que involucran otras especies químicas como el sodio o el potasio. La sinápsis es un proceso complejo, pero de hecho... ¡muy físico! El modelo de ecuaciones diferenciales que describe los procesos de disparo de un inpulso nervioso en las neuronas se conoce como Modelo de Hodgkin y Huxley, y le valió a estos dos biofísicos el Nobel en fisiología o medicina en 1963.[↩](#f1)
-
-<a name="foot2">2</a>: «The calcium concentration in the post-synaptic neuron increases following a spiking event of the pre-synaptic neuron, then decays within a timescale of tens of milliseconds. If the post-synaptic neuron also fires within this time frame, the calcium concentration can be enhanced above a threshold that triggers synaptic potentiation. The calcium concentration, and in turn the strength of the potentiation, depends on the relative timing of the pre- and postneuron spikes and this mechanism has been argued as the possible underlying process behind the observed spike-timing-dependent plasticity and rate-dependent plasticity effects» [[3]](#Ref3). [↩](#f2)
-
-### Referencias
-<a name="Ref1">[1]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Sinapsis.png] (visita 24/04/2020)<br/>
-<a name="Ref2">[2]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Arquitecturaneumann.jpg] (visita 24/04/2020)<br/>
-<a name="Ref3">[3]</a>: M.A. Zidan, J.P. Strachan, W.D. Lu, _The future of electronics based on memristive systems_, Nat. Electron. 1, 22–29 (2018)<br/>
-<a name="Ref4">[4]</a>: M. Ziegler, Ch. Wenger, E. Chicca, H. Kohlstedt _Tutorial: Concepts for closely mimicking biological learning with memristive devices: Principles to emulate cellular forms of learning_ J. Appl. Phys. 124, 152003 (2018)<br/>
-
----
-
 ### Cuestión de aprendizaje: aprendizaje supervisado vs. aprendizaje no supervisado
 
 Por otro lado, las inteligencias artificiales (IA) con las que se trabaja actualmente siguen entrenamientos de **aprendizaje supervisado**. Cuando se diseña una red neuronal se crean computacionalmente (se implementan a través de software) una serie de unidades llamadas neuronas (por el símil con el cerebro), y se establece entre ellas una serie de conexiones cuya probabilidad viene modulada por un número llamado peso sináptico (de nuevo, el símil). Para aprender, y he aquí la gran diferencia, debemos introducir manualmente en la IA un «target», debemos decirle de antemano qué queremos que haga.
@@ -108,4 +90,18 @@ Por otro lado, el memristor aprende cuando se usa. Si ha sido utilizado muchas v
 La idea de los memristores es muy llamativa, y puede ser una revolución en la computación y en la inteligencia artificial, pero todavía son muchos los retos que se deben superar, y las mejoras que se deben implementar. Si te interesa el tema, te dejamos dos artículos que estudian los memristores, su pasado, y su futuro en profundidad, que puedes encontrar en las referencias [[3]](#Ref3) y [[4]](#Ref4). 
 
 ¿Tú qué opinas? ¿Será este el paso que nos faltaba para conseguir diseñar androides capaces de imitar comportamientos humanos, o todavía se nos escapa algo? ¿Surgirá la consciencia de forma espontánea al crear una red lo suficientemente grande de memristores, o nuestro cerebro esconde algún secreto todavía sin descubrir?
+
+
+
+---
+
+<a name="foot1">1</a>: Aquí hablamos del calcio, pero en general se dan un conjunto de corrientes iónicas que involucran otras especies químicas como el sodio o el potasio. La sinápsis es un proceso complejo, pero de hecho... ¡muy físico! El modelo de ecuaciones diferenciales que describe los procesos de disparo de un inpulso nervioso en las neuronas se conoce como Modelo de Hodgkin y Huxley, y le valió a estos dos biofísicos el Nobel en fisiología o medicina en 1963.[↩](#f1)
+
+<a name="foot2">2</a>: «The calcium concentration in the post-synaptic neuron increases following a spiking event of the pre-synaptic neuron, then decays within a timescale of tens of milliseconds. If the post-synaptic neuron also fires within this time frame, the calcium concentration can be enhanced above a threshold that triggers synaptic potentiation. The calcium concentration, and in turn the strength of the potentiation, depends on the relative timing of the pre- and postneuron spikes and this mechanism has been argued as the possible underlying process behind the observed spike-timing-dependent plasticity and rate-dependent plasticity effects» [[3]](#Ref3). [↩](#f2)
+
+### Referencias
+<a name="Ref1">[1]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Sinapsis.png] (visita 24/04/2020)<br/>
+<a name="Ref2">[2]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Arquitecturaneumann.jpg] (visita 24/04/2020)<br/>
+<a name="Ref3">[3]</a>: M.A. Zidan, J.P. Strachan, W.D. Lu, _The future of electronics based on memristive systems_, Nat. Electron. 1, 22–29 (2018)<br/>
+<a name="Ref4">[4]</a>: M. Ziegler, Ch. Wenger, E. Chicca, H. Kohlstedt _Tutorial: Concepts for closely mimicking biological learning with memristive devices: Principles to emulate cellular forms of learning_ J. Appl. Phys. 124, 152003 (2018)<br/>
 
