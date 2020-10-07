@@ -58,6 +58,7 @@ El aspecto principal de este tipo de ordenadores es que la unidad de procesamien
 
 De momento hemos aprendido cómo aprende nuestro cerebro, y hemos hecho frente a una de las grandes limitaciones a las que nuestros dispositivos deben hacer frente: el cuello de botella de von Neumann. Podemos empezar a ver así algunas diferencias cruciales entre ordenadores y cerebros, en concreto, la separación entre procesado de información y memoria, que zancadillea a los primeros. Pero... ¿qué hay de los memristores? Hablaremos de ellos en la siguiente parte de nuestro artículo, así podemos mantener un poco de suspense... ¡que siempre alegra la vida!, dejar reposar estas ideas, y volver con fuerza para enfrentarnos al as que guardaba la ciencia bajo la manga, para ayudar a nuestros «pobres» ordenadores en esta lucha contra sus propias limitaciones.
 
+---
 
 <a name="foot1">1</a>: Aquí hablamos del calcio, pero en general se dan un conjunto de corrientes iónicas que involucran otras especies químicas como el sodio o el potasio. La sinápsis es un proceso complejo, pero de hecho... ¡muy físico! El modelo de ecuaciones diferenciales que describe los procesos de disparo de un inpulso nervioso en las neuronas se conoce como Modelo de Hodgkin y Huxley, y le valió a estos dos biofísicos el Nobel en fisiología o medicina en 1963.
 
