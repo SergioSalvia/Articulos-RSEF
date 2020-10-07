@@ -27,7 +27,7 @@ ellas: las sinápsis. En la [Figura 1](#Fig1) se muestra un esquema de su funcio
 
 
 ![Sinapsis](Sinapsis.png)<br/>
-<a name="Fig1">**Figura 1**</a>: Esquema de una sinapsis entre dos neuronas [1](#Ref1).
+<a name="Fig1">**Figura 1**</a>: Esquema de una sinapsis entre dos neuronas [[1]](#Ref1).
 
 
 En este esquema podemos distinguir dos partes principales: el **axón terminal** y el **botón dendrítico**. Para no entrar mucho en la parte bioquímica, basta con pensar que el axón terminal es el cable final de una neurona, llamada **neurona presináptica** o emisora, mientras que el botón dendrítico es el cable inicial de la siguiente neurona, llamada **neurona postsináptica** o receptora. Cuando un impulso nervioso llega a la neurona presináptica, provoca que esta libere en el espacio sináptico una serie de neurotransmisores, que alcanzan la neurona postsináptica, pudiendo dar lugar a que el impulso continúe. Esta es la forma que tienen las neuronas de comunicarse entre ellas.
@@ -48,8 +48,8 @@ Cuando se descubrió esto y se pensó en implementarlo en ordenadores, se intent
 Todos los ordenadores que hay actualmente en el mercado y disponibles para cualquier persona (a fecha de 2020) siguen una arquitectura computacional que se suele llamar arquitectura de von Neumann. Este esquema se representa en la [Figura 3](#Fig3).
 
 
-![vNeumann](von neumann.jpg)<br/>
-<a name="Fig3">**Figura 3**</a>: Esquema de distribución de elementos según la arquitectura de von Neumann[2](#Ref2).
+![vNeumann](vonneumann.jpg)<br/>
+<a name="Fig3">**Figura 3**</a>: Esquema de distribución de elementos según la arquitectura de von Neumann[[2]](#Ref2).
 
 
 El aspecto principal de este tipo de ordenadores es que la unidad de procesamiento, la CPU, (es decir, el lugar en el que se realizan las operaciones lógicas, donde tu ordenador «piensa») está separado físicamente de la memoria, el lugar donde se almacena la información. Esto supone un grandísimo inconveniente, que en los últimos años ha empezado a preocupar a los científicos que se dedican a la computación. Tal y como están diseñados nuestros ordenadores, la CPU y la memoria tienen que estar intercambiando información **constantemente**, y ese flujo de información consume más tiempo que muchas actividades que tiene que realizar la CPU. Sería algo así como que tu profesor en un examen te mandara hacer una multiplicación, pero te ordenara entregar la respuesta en papel a un profesor en Pekín; la respuesta la podrás obtener rápido, pero pierdes muchísimo tiempo en el viaje. Este problema se llama **cuello de botella de von Neumann** (en inglés *von Neumann bottleneck*), y es otro de los motivos por los que los memristores podrían suponer una revolución a nivel computacional, ya que en principio, como veremos más adelante, no tienen este problema. Este cuello de botella supone una gran desventaja para nuestras inteligencias artificiales, ya que su velocidad se ve mermada.
@@ -61,11 +61,11 @@ De momento hemos aprendido cómo aprende nuestro cerebro, y hemos hecho frente a
 
 <a name="foot1">1</a>: Aquí hablamos del calcio, pero en general se dan un conjunto de corrientes iónicas que involucran otras especies químicas como el sodio o el potasio. La sinápsis es un proceso complejo, pero de hecho... ¡muy físico! El modelo de ecuaciones diferenciales que describe los procesos de disparo de un inpulso nervioso en las neuronas se conoce como Modelo de Hodgkin y Huxley, y le valió a estos dos biofísicos el Nobel en fisiología o medicina en 1963.
 
-<a name="foot2">2</a>: «The calcium concentration in the post-synaptic neuron increases following a spiking event of the pre-synaptic neuron, then decays within a timescale of tens of milliseconds. If the post-synaptic neuron also fires within this time frame, the calcium concentration can be enhanced above a threshold that triggers synaptic potentiation. The calcium concentration, and in turn the strength of the potentiation, depends on the relative timing of the pre- and postneuron spikes and this mechanism has been argued as the possible underlying process behind the observed spike-timing-dependent plasticity and rate-dependent plasticity effects» [[3]](#Ref3) 
+<a name="foot2">2</a>: «The calcium concentration in the post-synaptic neuron increases following a spiking event of the pre-synaptic neuron, then decays within a timescale of tens of milliseconds. If the post-synaptic neuron also fires within this time frame, the calcium concentration can be enhanced above a threshold that triggers synaptic potentiation. The calcium concentration, and in turn the strength of the potentiation, depends on the relative timing of the pre- and postneuron spikes and this mechanism has been argued as the possible underlying process behind the observed spike-timing-dependent plasticity and rate-dependent plasticity effects» [[3]](#Ref3). 
 
 ### Referencias
 <a name="Ref1">[1]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Sinapsis.png] (visita 24/04/2020)<br/>
 <a name="Ref2">[2]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Arquitecturaneumann.jpg] (visita 24/04/2020)<br/>
-<a name="Ref3">[3]</a>:M.A. Zidan, J.P. Strachan, W.D. LuThe future of electronics based on memristive systems, Nat Electron 1, 22–29 (2018)<br/>
+<a name="Ref3">[3]</a>:M.A. Zidan, J.P. Strachan, W.D. Lu, _The future of electronics based on memristive systems_, Nat Electron 1, 22–29 (2018)<br/>
 
 
