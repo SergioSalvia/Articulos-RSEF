@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog 
-title:  "Memristores: ¿neuronas para tu ordenador? (Parte I)"
+title:  "Memristores: ¿neuronas para tu ordenador?"
 date:  
 author: Sergio J Salvía Fernández
 redirect-from:
