@@ -67,6 +67,45 @@ De momento hemos aprendido cómo aprende nuestro cerebro, y hemos hecho frente a
 ### Referencias
 <a name="Ref1">[1]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Sinapsis.png] (visita 24/04/2020)<br/>
 <a name="Ref2">[2]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Arquitecturaneumann.jpg] (visita 24/04/2020)<br/>
-<a name="Ref3">[3]</a>: M.A. Zidan, J.P. Strachan, W.D. Lu, _The future of electronics based on memristive systems_, Nat Electron 1, 22–29 (2018)<br/>
+<a name="Ref3">[3]</a>: M.A. Zidan, J.P. Strachan, W.D. Lu, _The future of electronics based on memristive systems_, Nat. Electron. 1, 22–29 (2018)<br/>
+<a name="Ref4">[4]</a>: M. Ziegler, Ch. Wenger, E. Chicca, H. Kohlstedt _Tutorial: Concepts for closely mimicking biological learning with memristive devices: Principles to emulate cellular forms of learning_ J. Appl. Phys. 124, 152003 (2018)<br/>
 
+---
+
+### Cuestión de aprendizaje: aprendizaje supervisado vs. aprendizaje no supervisado
+
+Por otro lado, las inteligencias artificiales (IA) con las que se trabaja actualmente siguen entrenamientos de **aprendizaje supervisado**. Cuando se diseña una red neuronal se crean computacionalmente (se implementan a través de software) una serie de unidades llamadas neuronas (por el símil con el cerebro), y se establece entre ellas una serie de conexiones cuya probabilidad viene modulada por un número llamado peso sináptico (de nuevo, el símil). Para aprender, y he aquí la gran diferencia, debemos introducir manualmente en la IA un «target», debemos decirle de antemano qué queremos que haga.
+
+Pongamos un ejemplo de clasificación, en el que queremos que nuestra IA aprenda a reconocer manzanas. Para ello, debemos enseñar a la IA cientos de miles de fotografías de manzanas y de otros objetos, y en cada caso decirle si son o si no son una manzana, de ahí el nombre de aprendizaje supervisado. De esta forma, la red artificial va poco a poco modificando los parámetros del sistema, los pesos sinápticos, hasta ser capaz de reconocer si la imagen que se le enseña es una manzana. Y esto es sorprendente, pero también tiene varios inconvenientes. 
+
+El primero de ellos es el más evidente, y es que requiere de un alto coste temporal y energético, mientras que el cerebro es muy muy (y muchos muy) eficiente si se tiene en cuenta la cantidad de información que procesa por unidad de tiempo. El segundo es su limitación de cara a la velocidad del aprendizaje, debido a la arquitectura de von Neumann, ya que los pesos se almacenan en memoria, mientras que el reconocimiento se realiza en la CPU. Finalmente, un aspecto más abstracto: una red de aprendizaje supervisado no es capaz de reconocer la información que contiene lo aprendido.
+
+Parémonos en este último punto. La red neuronal que acabamos de explicar sabe reconocer una manzana si se le enseña, pero no sabe por qué, no es capaz de reconocer la información que contiene la manzana. Por el contrario, en el caso de las neuronas, el concepto de manzana se representa a través de distintos subgrupos de información, llamados clusters, que se conectan entre sí, por lo que nuestro cerebro sí sabe lo que caracteriza una manzana. En otro ejemplo que a lo mejor es más claro, nuestro cerebro puede reconocer una silla, aunque esta sea muy moderna y en lugar de 4 patas se sostenga en alguna forma vanguardista.
+
+Esta es la gran diferencia que presenta el cerebro con su plasticidad frente a la inteligencia artificial común, que el aprendizaje del cerebro es **aprendizaje no supervisado**. No necesitamos que alguien venga en una tienda a decirnos qué son sillas y qué son manzanas. Aunque no supieramos de antemano qué son, al exponernos a distintas sillas y manzanas nuestro cerebro sería capaz de reconocer ciertas características, clasificarlas en distintos grupos, y construir conceptos complejos a partir de conceptos más simples, lo que da lugar a un aprendizaje mucho más rico.
+
+### Los memristores: Neuronas artificiales 
+
+En resumen, hay dos problemas principales a los que la inteligencia artificial debe hacer frente: la separación entre memoria y procesamiento, y el aprendizaje no supervisado. Estos problemas para nuestro cerebro son pan comido, pero con nuestros ordenadores (pobrecitos ellos) son incapaces de solventarse... de momento. Es aquí donde introducimos al gran protagonista, que se ha hecho esperar pero que por fin revelamos con detalle, el as que guardaban bajo la manga los científicos para ayudar a nuestros ordenadores: los **memristores**. 
+
+¿Y si se pudiera implementar de forma física la plasticidad neuronal en un dispositivo electrónico? Pues esto precisamente es lo que los memristores consiguen, y para ello solo necesitan 3 elementos: dos electrodos metálicos, y una capa intermedia de un material especialmente diseñado para el memristor. Y, lo más importante, ¡su tamaño es del orden de los nanométros! ¡Como las neuronas bilógicas! En la [Figura 4](#Fig4) puedes ver un esquema del dispositivo, que como podrás observar es muy parecido a una resistencia (de ahí su nombre, memristor = memoria + resistor).
+
+¿Cómo consigue un memristor imitar a una neurona? Desde hace unos 50 años, los científicos que se dedican a la ciencia de materiales saben que cuando algunos óxidos son expuestos a estrés eléctrico se da una transición de aislante a conductor; es decir, que si aplicamos una diferencia de potencial lo suficientemente elevada podemos modificar la resistencia del material, disminuyéndola, ¡y esto es justo lo que hacen las neuronas! Además de esto, podemos conseguir un memristor creando «caminos» conductores entre los terminales. Esto se consigue gracias a que la aplicación sucesiva de diferencias de potencial cambia cómo se configuran los iones de la capa intermedia (ver [Figura 4](#Fig4)).
+
+![memristor](memristor.PNG)<br/>
+<a name="Fig4">**Figura 4**</a>: Memristor antes y después del aprendizaje.
+
+
+Recordemos que nuestro cerebro aprende reforzando conexiones entre neuronas a través de la acumulación de iones de calcio, lo que aumenta la probabilidad de que la corriente se transmita. En nuestro caso, es la disminución en la resistencia o la creación de canales de conducción es lo que aumenta esa probabilidad. De esta forma, los memristores suponen un paso muy grande de cara a superar la arquitectura von Neumann, ¡la memoria se almacena en la misma unidad que transmite en el impulso!
+
+En la realidad, de cara a su aplicación para tareas que no estén relacionadas con inteligencia artificial, se crean redes de memristores a través de los cuales la intensidad circula en columnas, y además, se pueden inducir potenciales en las filas. De esta forma los potenciales aplicados en la dirección transversal también pueden modificar la capa intermedia, y codificar información, ¡y estas redes ya se han hecho funcionar en el laboratorio! Aunque todavia a pequeña escala, es un gran paso para superar la arquitectura von Neumann.
+
+Por otro lado, el memristor aprende cuando se usa. Si ha sido utilizado muchas veces, si se ha visto sometido a ese estrés eléctrico en varias ocasiones, entonces su resistencia disminuirá, aumentando la probabilidad de conexión... ¡es un aprendizaje no supervisado! Si tenemos un conjunto de memristores que representa los términos fruta, rojo y redondo, y sus conexiones se refuerzan a través de la práctica (no hace falta decirle que es una manzana, simplemente la red lo aprende con el uso), entonces nuestra red es capaz de representar la manzana con un patrón de conexiones reforzadas. Además, al estar dividido en características interconectadas, la red es capaz de extraer el concepto «manzana» a partir de información parcial, como «fruta roja», tal y como hace el cerebro. Esto supone un grandísimo avance de cara a la inteligencia artificial, pero también para que nosotros mismos aprendamos. Al fin y al cabo, cuando nuestro cerebro reconoce objetos o conceptos, hay veces que nosotros mismos no somos capaces de entender qué características son las que hay reforzadas creando el patrón. Haciendo uso de redes de aprendizaje no supervisado podemos estudiar qué conceptos se refuerzan, porque podemos estudiar _in situ_ las conexiones entre _clusters_ ¡y descubrir patrones que ni siquiera nosotros habíamos reconocido!
+
+
+### Y ahora... ¿qué?
+
+La idea de los memristores es muy llamativa, y puede ser una revolución en la computación y en la inteligencia artificial, pero todavía son muchos los retos que se deben superar, y las mejoras que se deben implementar. Si te interesa el tema, te dejamos dos artículos que estudian los memristores, su pasado, y su futuro en profundidad, que puedes encontrar en las referencias [[3]](#Ref3) y [[4]](#Ref4). 
+
+¿Tú qué opinas? ¿Será este el paso que nos faltaba para conseguir diseñar androides capaces de imitar comportamientos humanos, o todavía se nos escapa algo? ¿Surgirá la consciencia de forma espontánea al crear una red lo suficientemente grande de memristores, o nuestro cerebro esconde algún secreto todavía sin descubrir?
 
