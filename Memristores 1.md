@@ -26,7 +26,7 @@ La forma que tiene el cerebro de almacenar información y, en consecuencia, apre
 ellas: las sinápsis. En la [Figura 1](#Fig1) se muestra un esquema de su funcionamiento.
 
 ![Sinapsis](Sinapsis.png)<br/>
-<a name="Fig1">Figura 1</a>: Esquema de una sinapsis entre dos neuronas
+<a name="Fig1">**Figura 1**</a>: Esquema de una sinapsis entre dos neuronas
 
 En este esquema podemos distinguir dos partes principales: el **axón terminal** y el **botón dendrítico**. Para no entrar mucho en la parte bioquímica, basta con pensar que el axón terminal es el cable final de una neurona, llamada **neurona presináptica** o emisora, mientras que el botón dendrítico es el cable inicial de la siguiente neurona, llamada **neurona postsináptica** o receptora. Cuando un impulso nervioso llega a la neurona presináptica, provoca que esta libere en el espacio sináptico una serie de neurotransmisores, que alcanzan la neurona postsináptica, pudiendo dar lugar a que el impulso continúe. Esta es la forma que tienen las neuronas de comunicarse entre ellas.
 
