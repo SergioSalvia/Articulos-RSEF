@@ -100,8 +100,8 @@ La idea de los memristores es muy llamativa, y puede ser una revolución en la c
 <a name="foot2">2</a>: «The calcium concentration in the post-synaptic neuron increases following a spiking event of the pre-synaptic neuron, then decays within a timescale of tens of milliseconds. If the post-synaptic neuron also fires within this time frame, the calcium concentration can be enhanced above a threshold that triggers synaptic potentiation. The calcium concentration, and in turn the strength of the potentiation, depends on the relative timing of the pre- and postneuron spikes and this mechanism has been argued as the possible underlying process behind the observed spike-timing-dependent plasticity and rate-dependent plasticity effects» [[3]](#Ref3). [↩](#f2)
 
 ### Referencias
-<a name="Ref1">[1]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Sinapsis.png] (visita 24/04/2020)<br/>
-<a name="Ref2">[2]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Arquitecturaneumann.jpg] (visita 24/04/2020)<br/>
+<a name="Ref1">[1]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Sinapsis.png] (visita 07/10/2020)<br/>
+<a name="Ref2">[2]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Arquitecturaneumann.jpg] (visita 07/10/2020)<br/>
 <a name="Ref3">[3]</a>: M.A. Zidan, J.P. Strachan, W.D. Lu, _The future of electronics based on memristive systems_, Nat. Electron. 1, 22–29 (2018)<br/>
 <a name="Ref4">[4]</a>: M. Ziegler, Ch. Wenger, E. Chicca, H. Kohlstedt _Tutorial: Concepts for closely mimicking biological learning with memristive devices: Principles to emulate cellular forms of learning_ J. Appl. Phys. 124, 152003 (2018)<br/>
 
