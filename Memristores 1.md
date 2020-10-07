@@ -67,6 +67,6 @@ De momento hemos aprendido cómo aprende nuestro cerebro, y hemos hecho frente a
 ### Referencias
 <a name="Ref1">[1]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Sinapsis.png] (visita 24/04/2020)<br/>
 <a name="Ref2">[2]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Arquitecturaneumann.jpg] (visita 24/04/2020)<br/>
-<a name="Ref3">[3]</a>:M.A. Zidan, J.P. Strachan, W.D. Lu, _The future of electronics based on memristive systems_, Nat Electron 1, 22–29 (2018)<br/>
+<a name="Ref3">[3]</a>: M.A. Zidan, J.P. Strachan, W.D. Lu, _The future of electronics based on memristive systems_, Nat Electron 1, 22–29 (2018)<br/>
 
 
