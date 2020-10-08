@@ -12,7 +12,7 @@ redirect-from:
 
 Desde *Blade runner* o la *Saga fundación*, a los humanos siempre nos ha gustado imaginar ordenadores casi humanos, capaces de pensar y aprender de forma independiente y
 que se plantean el significado de la vida (normalmente con desastrosas consecuencias). A pesar de ello, llevamos bastante tiempo fallando en nuestras premoniciones distópicas
-(sin ir más lejos, ¡Blade Runner se desarrolla en un noviembre de 2019!). A día de hoy el uso de la inteligencia artificial está bastante extendido en distintos ámbitos,
+(sin ir más lejos, ¡*Blade Runner* se desarrolla en un noviembre de 2019!). A día de hoy el uso de la inteligencia artificial está bastante extendido en distintos ámbitos,
 y pese a esto, seguimos sin poder saludar a nuestro jardinero androide cuando vamos a la universidad, por lo que parece que este futuro humanoide está bastante lejos...
 ¿o tal vez no?
 
