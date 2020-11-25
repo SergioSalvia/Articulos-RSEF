@@ -51,7 +51,7 @@ Ahora supongamos que el aire acondicionado de este extraño centro comercial se 
 
 ### Conclusiones
 
-¿Es esto todo? ¿Podemos volver a dormir tranquilos? La distribución de Fermi-Dirac fue uno de los grandes pasos que dió la física de la materia condensada a principios del siglo XX, peor aún quedaban muchos problemas sin resolver. Los datos de conductividad que se esperaban para algunos materiales parecían ser bastante mayores a los medidos en el laboratorio, incluso aplicando las ideas de Fermi y Dirac, ¿qué estaba ocurriendo?. Siguiendo a esta pregunta cabía ir más allá: ¿por qué existen sólidos metálicos y sólidos aislantes? Muchas sorpresas estarían aún por llegar, todas ellas de la mano de la física cuántica, dando lugar a un escenario de nuevas ideas y conceptos que aún hoy sigue creciendo.
+¿Es esto todo? ¿Podemos volver a dormir tranquilos? La distribución de Fermi-Dirac fue uno de los grandes pasos que dió la física de la materia condensada a principios del siglo XX, pero aún quedaban muchos problemas sin resolver. Los datos de conductividad que se esperaban para algunos materiales parecían ser bastante mayores a los medidos en el laboratorio, incluso aplicando las ideas de Fermi y Dirac, ¿qué estaba ocurriendo?. Siguiendo a esta pregunta cabía ir más allá: ¿por qué existen sólidos metálicos y sólidos aislantes? Muchas sorpresas estarían aún por llegar, todas ellas de la mano de la física cuántica, dando lugar a un escenario de nuevas ideas y conceptos que aún hoy sigue creciendo.
 
 ---
 <a name="foot1">1</a>: O azules, el eterno debate.[↩](#f1)
@@ -62,7 +62,7 @@ Ahora supongamos que el aire acondicionado de este extraño centro comercial se 
 
 <a name="foot4">4</a>: Cada estado de energía y momento cristalino puede estar ocupado por dos electrones porque estos, al tener diferente espín, ocupan en realidad estados distintos. Esto es algo que se sobreentiende en el contexto de la física del estado sólido, por lo que para caracterizar los estados no se suele usar también el espín.[↩](#f4)
 
-<a name="foot5">5</a>: No van a intentar ir a la última porque recordemos: nuestros clientes son esencialmente vagos, y no quieren subir demasiadas escaleras.[↩](#f5)
+<a name="foot5">5</a>: No van a intentar ir a la última planta porque recordemos: nuestros clientes son esencialmente vagos, y no quieren subir demasiadas escaleras.[↩](#f5)
 
 ### Referencias
 <a name="Ref1">[1]</a>: Wikimedia Commons[https://commons.wikimedia.org/wiki/File:Moglft0304_calor_solidos.jpg] (visita 25/11/2020)<br/>
