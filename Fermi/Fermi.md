@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog 
-title:  "El mar de Fermi: ¡lo que te han contado sobre metales es mentira!"
+title:  "El mar de Fermi: ¡lo que te han contado sobre metales y electrones es mentira!"
 date:  
 author: Sergio J Salvía Fernández
 redirect-from:
@@ -42,7 +42,7 @@ La forma en la que los electrones se distribuyen por niveles en un sólido sigue
 Como esto puede ser un poco abstracto, intentemos dar un ejemplo ilustrativo. Imaginemos un centro comercial sin ascensor que se caracteriza por tener varias plantas, y en cada planta un conjunto de tiendas. En cada tienda sólo se permite la entrada a dos personas (para poder mantener así la distancia de seguridad), por lo que cada planta tiene un aforo limitado (no vale quedarse en los pasillos deambulando). En nuestro ejemplo, los estados vienen representados por planta (energía) y tienda (momento cristalino), haciendo los clientes las de electrones. Los protocolos de seguridad juegan el papel del Principio de exclusión de Pauli<sup name="f4">[4](#foot4)</sup>. Este símil resulta conveniente porque las tiendas se reparten en el espacio, al igual que los valores de momento cristalino k en realidad se representan por vectores de componentes ($k_x$,$k_y$,$k_z$), lo que hace que en realidad la distribución que hemos representado en la [Figura 2](#Fig2) tome forma esférica en un espacio tridimensional que llamamos *espacio recíproco* o sipmlemente *espacio K* (ver [Figura 3](#Fig3). La próxima vez que hablemos de metales esto será relevante, pero de momento sigamos con nuestro centro comercial.
 
 ![Esfera_fermi](esfera_fermi.PNG)<br/>
-<a name="Fig3">**Figura 3**</a>: En realidad, el momento cristalino $k$ se trata de un vector con componentes ($k_x$,$k_y$,$k_z$). El diagrama que hemos representado antes toma entonces una forma esférica, siendo la última capa lo que se conoce como **superficie de Fermi**.
+<a name="Fig3">**Figura 3**</a>: En realidad, el momento cristalino $k$ se trata de un vector con componentes (k_{x},k_y,k_z). El diagrama que hemos representado antes toma entonces una forma esférica, siendo la última capa lo que se conoce como **superficie de Fermi**.
 
 Llegan las 8 de la mañana, y la gente empieza a entrar en el centro comercial. Al principio, la gente intenta quedarse en las tiendas de la planta baja (al fin y al cabo, a nadie le gusta subir escaleras). Sin embargo, cuando la primera planta ha llenado el aforo, las personas que entren deben subir a la siguiente. Esto supone un ordenamiento similar al que ocurre en la figura [Figura 2](#Fig2).
 
