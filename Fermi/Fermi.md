@@ -36,7 +36,7 @@ Cuando un conjunto de electrones libres se ve sometido a algún tipo de variaci�
 
 La forma en la que los electrones se distribuyen por niveles en un sólido sigue una distribución que se conoce como **distribución de Fermi-Dirac**, formando lo que a veces se llama _mar de Fermi_ (ver [Figura 2](#Fig2)). En el sólido, todos los estados con la misma energía forman un nivel energético, por lo que el conjunto total de estados forma una estructura formada por distintos niveles. Cuando la temperatura es próxima a cero los electrones se ordenan ocupando niveles de energía de forma consecutiva, ya que no pueden ocupar todos el mismo nivel, llenando hasta una cierta energía: el nivel de Fermi. A medida que la temperatura aumenta, los electrones de los niveles más altos pueden saltar a niveles superiores que estén vacíos, y así poco a poco redistribuirse. 
 
-![Fermi](mar de fermi.png)<br/>
+![Fermi](Fermi/mar de fermi.png)<br/>
 <a name="Fig2">**Figura 2**</a>: Esquema del mar de Fermi. Aquí hemos elegido representar únicamente dos electrones por nivel, aunque en realidad cada nivel contendrá varios valores distintos de momento cristalino.
 
 Como esto puede ser un poco abstracto, intentemos dar un ejemplo ilustrativo. Imaginemos un centro comercial sin ascensor que se caracteriza por tener varias plantas, y en cada planta un conjunto de tiendas. En cada tienda sólo se permite la entrada a dos personas (para poder mantener así la distancia de seguridad), por lo que cada planta tiene un aforo limitado (no vale quedarse en los pasillos deambulando). En nuestro ejemplo, los estados vienen representados por planta (energía) y tienda (momento cristalino), haciendo los clientes las de electrones. Los protocolos de seguridad juegan el papel del Principio de exclusión de Pauli<sup name="f4">[4](#foot4)</sup>.
@@ -51,9 +51,13 @@ Ahora supongamos que el aire acondicionado de este extraño centro comercial se 
 
 ---
 <a name="foot1">1</a>: O azules, el eterno debate.[↩](#f1)
+
 <a name="foot2">2</a>: Dato curioso: El físico Peter Debye nació en Maastrich (Países Bajos) en 1912, y por ende su nombre originalmente era Petrus Debije. Posteriormente se mudaría a EEUU y se cambiaría el nombre al recibir la nacionalidad, siendo los motivos todavía objeto de debate y mucha controversia. Lo interesante es que aún hoy en las universidades neerlandesas puede oirse a los profesores usar su nombre original (y leerse en la bibliografía en neerlandés).[↩](#f2)
+
 <a name="foot3">3</a>: El momento cristalino es en muchos casos proporcional al momento lineal y por tanto, podemos pensar en él como una cantidad relacionada con la velocidad de los electrones. **Nota avanzada**: Esto tiene matices sutiles. El operador momento lineal aplicado a las funciones de onda de los electrones en sólidos no es únicamente proporcional al momento cristalino, existe un término más que evita relacionarlos directamente. Este símil surge del comportamiento de los electrones bajo la aplicación de campos eléctricos, en lo que se conoce como teoría semiclásica para la conducción. Puede encontrarse más en *Ashcroft & Mermin* Ch 8.[↩](#f3)
+
 <a name="foot4">4</a>: Cada estado de energía y momento cristalino puede estar ocupado por dos electrones porque estos, al tener diferente espín, ocupan en realidad estados distintos. Esto es algo que se sobreentiende en el contexto de la física del estado sólido, por lo que para caracterizar los estados no se suele usar también el espín.[↩](#f4)
+
 <a name="foot5">5</a>: No van a intentar ir a la última porque recordemos: nuestros clientes son esencialmente vagos, y no quieren subir demasiadas escaleras.[↩](#f5)
 
 ### Referencias
