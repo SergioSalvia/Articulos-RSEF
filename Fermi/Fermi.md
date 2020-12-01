@@ -55,7 +55,7 @@ Ahora supongamos que el aire acondicionado de este extraño centro comercial se 
 
 ### Conclusiones
 
-¿Es esto todo? ¿Podemos volver a dormir tranquilos? La distribución de Fermi-Dirac fue uno de los grandes pasos que dió la física de la materia condensada a principios del siglo XX, pero aún quedaban muchos problemas sin resolver. Los datos de conductividad que se esperaban para algunos materiales parecían ser bastante mayores a los medidos en el laboratorio, incluso aplicando las ideas de Fermi y Dirac, ¿qué estaba ocurriendo?. Siguiendo a esta pregunta cabía ir más allá: ¿por qué existen sólidos metálicos y sólidos aislantes? Muchas sorpresas estarían aún por llegar, todas ellas de la mano de la física cuántica, dando lugar a un escenario de nuevas ideas y conceptos que aún hoy sigue creciendo.
+¿Es esto todo? ¿Podemos volver a dormir tranquilos? El modelo que hemos descrito aquí se conoce como *Modelo de electrones casi libres*. Tanto el modelo en sí como la distribución de Fermi-Dirac fueron grandes pasos que dió la física de la materia condensada a principios del siglo XX, pero aún quedaban muchos problemas sin resolver. Los datos de conductividad que se esperaban siguiendo este modelo para algunos materiales parecían ser bastante mayores a los medidos en el laboratorio, incluso aplicando las ideas de Fermi y Dirac, ¿qué estaba ocurriendo?. Siguiendo a esta pregunta cabía ir más allá: ¿por qué existen sólidos metálicos y sólidos aislantes? Muchas sorpresas estarían aún por llegar, todas ellas de la mano de la física cuántica, dando lugar a un escenario de nuevas ideas y conceptos que aún hoy sigue creciendo.
 
 ---
 <a name="foot1">1</a>: O azules, el eterno debate.[↩](#f1)
