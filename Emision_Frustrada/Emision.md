@@ -19,7 +19,7 @@ Una onda en un lago puede tener frecuencias y energías prácticamente arbitrari
 
 ¿Podría ocurrir lo mismo con el campo electromagnético? ¿Pueden algunos fotones no "caber"? La respuesta es sorprendente: sí, gracias a los **cristales fotónicos**. Estos cristales son estructuras periódicas llenas de huecos nanométricos (ver [Figura 1](#Fig1)) que imponen condiciones al campo electromagnético, igual que los extremos fijos en la cuerda de la guitarra, y prohíben que ciertos modos de vibración puedan existir. Dado que para un fotón energía y frecuencia son equivalentes, ¡pueden hacer que fotones de ciertas energías "no quepan" dentro de su estructura!
 
-![Photonic](Photonic crystal.PNG)<br/>
+![Photonic](Photonic_crystal.PNG)<br/>
 <a name="Fig1">**Figura 1**</a>: Ejemplo de estructura de un cristal fotónico.
 
 ### Emisión espontánea y emisión frustrada
