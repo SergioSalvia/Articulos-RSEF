@@ -40,4 +40,4 @@ Se acercaba el ocaso de estos tres apasionantes días de física y, como no pod�
 
 
 ### Referencias
-<a name="Ref1">[1]</a>: Puedes encontrar todas sus plataformas de divulgación [en este Linktree](https://linktr.ee/elfisicobarbudo)<br/>
+<a name="Ref1">[1]</a>: Puedes encontrar todas sus plataformas de divulgación [en este Linktree](https://linktr.ee/elfisicobarbudo).<br/>
