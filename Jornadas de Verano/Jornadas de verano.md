@@ -35,6 +35,9 @@ Las Jornadas de Verano 2021 finalizaron el viernes 15 de julio con un nuevo *str
 
 Se acercaba el ocaso de estos tres apasionantes días de física y, como no podía ser de otra manera, Adolfo de Azcárraga, actual expresidente de la RSEF, nos deleitaba con una emotiva disertación sobre la historia de la RSEF en la ponencia de clausura. Pero aún faltaría el colofón, con los nervios a flor de piel los jueces proclamaban al primer vencedor del concurso *¡Preséntame tu tesis!* lo que cerraba tres memorables días llenos de física.
 
+![JdeV](JdeV_Collage.jpg)<br/>
+<a name="Fig1">**Figura 1**</a>: Algunas imágenes de las Jornadas de Verano 2021. Grandes conferencias, sesiones de networking, desarrollo profesional... ¡No podemos esperar a que se repitan!
+
 
 ### Referencias
 <a name="Ref1">[1]</a>: Puedes encontrar todas sus plataformas de divulgación [en este Linktree](https://linktr.ee/elfisicobarbudo)<br/>
