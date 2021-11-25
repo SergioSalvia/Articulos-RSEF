@@ -54,11 +54,11 @@ Hay cuestiones de muchos campos que pueden reducirse a problemas combinatorios, 
 Aunque los ordenadores cuánticos que revolucionarán el mundo tal y como lo conocemos aún estén lejos, el desarrollo de algoritmos cuánticos ha ayudado a mejorar nuestra comprensión de estos problemas combinatorios de gran escala. Solo por eso, podemos decir que la computación cuántica ya está transformando nuestro mundo. Por otro lado, no se debe perder de vista que la importancia de los NISQs no se debe solo a las aplicaciones que puedan tener en el presente y el futuro cercano. Estos también son una herramienta para la exploración y la investigación del funcionamiento de la computación cuántica desde el nivel más fundamental. Aún hay cosas que se nos escapan y efectos que no comprendemos del todo. Tener hardware cuántico en el que ir probando algoritmos e indagar en qué formas se pueden controlar más eficientemente los qubits, aparte de representar un gran logro, nos permite acercarnos cada vez más a los ordenadores cuánticos de gran escala, así como seguir mejorando los propios NISQs para aprovechar cuanto antes las posibilidades que ofrecen.
 
 ---
-<a name="foot1">1</a>: Concretamente, el transmón es el qubit superconductor más extendido, dejamos esta referencia si quieres entender cómo funciona: [https://arxiv.org/abs/cond-mat/0703002].
+<a name="foot1">1</a>: Concretamente, el transmón es el qubit superconductor más extendido, dejamos esta referencia si quieres entender cómo funciona: https://arxiv.org/abs/cond-mat/0703002.
 
 <a name="foot2">2</a>: Recientemente, IBM ha puesto en funcionamiento el procesador cuántico Eagle con 127 qubits, el máximo hasta la fecha y primero en superar los 100 qubits. Pretenden alcanzar los 400 qubits en 2022 y los 1000 en 2023.
 
-<a name="foot3">3</a>: OTI Lumionics, CogniFrame o Solid State AI, por dar nombres: [https://dx.doi.org/10.1140/epjqt/s40507-021-00091-1].
+<a name="foot3">3</a>: OTI Lumionics, CogniFrame o Solid State AI, por dar nombres: https://dx.doi.org/10.1140/epjqt/s40507-021-00091-1.
 
 ### Referencias
 <a name="Ref1">[1]</a>: IBM Blog [https://www.ibm.com/blogs/research/2017/09/quantum-molecule/]<br/>
