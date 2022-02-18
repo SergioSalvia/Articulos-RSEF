@@ -11,16 +11,10 @@ redirect-from:
 
 ### Entropía: el desorden y los microestados
 
-<p style="text-align: justify;"> Para empezar a hablar de muerte térmica es importante introducir nuestra protagonista: la entropía. Normalmente se dice que la entropía es "el grado de desorden de un sistema", aunque esto es bastante matizable. Por ejemplo, decimos que en una partida de billar la entropía aumenta a medida que pasa el tiempo, ya que pasamos de un estado ordenado (inicial) a un estado desordenado (final), tal y como se puede ver en la figura 1. En realidad la entropía no mide el grado de desorden, sino "el número de microestados que son compatibles con un macroestado dado". ¿Que qué significa esto? Podemos usar el ejemplo de las bolas de billar para explicarlo. </p>
+<p style="text-align: justify;"> Para empezar a hablar de muerte térmica es importante introducir nuestra protagonista: la entropía. Normalmente se dice que la entropía es "el grado de desorden de un sistema", aunque esto es bastante matizable. Por ejemplo, decimos que en una partida de billar la entropía aumenta a medida que pasa el tiempo, ya que pasamos de un estado ordenado (inicial) a un estado desordenado (final), tal y como se puede ver en la Figura 1. En realidad la entropía no mide el grado de desorden, sino "el número de microestados que son compatibles con un macroestado dado". ¿Que qué significa esto? Podemos usar el ejemplo de las bolas de billar para explicarlo. </p>
 
-<center>
-  <div style="width: 70%;">
-    <img id='Fig1' src="/img/blog/2021-11-25-ComputacionCuanticaHoy/1.png">
-    <p style="text-align: justify;">
-      <a id="Fig1"><strong>Figura 1</strong></a>: La esfera de Bloch es donde se representan los posibles estados |ψ⟩ en los que puede estar un qubit, definidos por los ángulos θ y φ.
-    </p>
-  </div>
-</center>
+![Fig1](billar.png)<br/>
+<a name="Fig1">**Figura 1**</a>: Ejemplo de cómo se desordena una mesa de billar en el tiempo a medida que transcurre la partida.
 
 <p style="text-align: justify;"> En primer lugar tenemos que distinguir dos conceptos: microestado y macroestado. El microestado tiene que ver con las configuraciones que son posibles para las componentes del sistema. En el caso del billar, con cómo se sitúan las bolas encima de la mesa, con cuales son sus posiciones <b>individuales</b>. El macroestado se relaciona con una propiedad del <b>conjunto</b>, donde lo que importa es una visión global, más que lo que ocurre a nivel individual. Volviendo al caso del billar, podríamos distinguir dos macroestados distintos: ordenado o desordenado. </p>
 
@@ -30,7 +24,7 @@ redirect-from:
 
 <p style="text-align: justify;"> "Muy bien, ¿pero esto qué tiene que ver con la muerte del universo?" te preguntarás. Aquí entra la segunda Ley de la termodinámica, que establece que: </p>
   
-<p style="text-align: justify;"> <i> En un estado de equilibrio, los valores que toman los parámetros característicos de un sistema termodinámico aislado son tales que maximizan el valor de una cierta magnitud que está en función de dichos parámetros, llamada entropía </i> <a href="#Ref1">[1]. </p>
+<p style="text-align: justify;"> <i> En un estado de equilibrio, los valores que toman los parámetros característicos de un sistema termodinámico aislado son tales que maximizan el valor de una cierta magnitud que está en función de dichos parámetros, llamada entropía </i> <a href="#Ref1">[1]</a>. </p>
 
 <p style="text-align: justify;"> Lo que esto quiere decir es que la entropía del universo aumenta inevitablemente a medida que pasa el tiempo. Si queremos verlo desde esa perspectiva un tanto inexacta del desorden, esto quiere significar que el universo se desordena, tal y como hemos visto en nuestra mesa de billar, por una cuestión meramente probabilística. Pero seguimos en las mismas, ¿a mi qué me importa que el universo se desordene? ¿por qué esto significa que se muere? Para entender esto debemos volver a los orígenes, y entender <b>por qué se define la entropía</b>. </p>
 
@@ -43,14 +37,8 @@ redirect-from:
 ### La muerte térmica
 <p style="text-align: justify;"> Una forma de entender esto de forma visual es a través de la máquina de Stirling. Esta máquina térmica aprovecha una diferencia de temperatura entre dos zonas, lo que hace que un pistón se mueva, accionando un motor. Lo importante de esta historia es que hace falta una diferencia de temperatura, si no, la máquina no funciona.</p>
 
-<center>
-  <div style="width: 70%;">
-    <img id='Fig1' src="/img/blog/2021-11-25-ComputacionCuanticaHoy/1.png">
-    <p style="text-align: justify;">
-      <a id="Fig1"><strong>Figura 1</strong></a>: Esquema básico de las componentes de una máquina de Stirling <a href="#Ref3">[3].
-    </p>
-  </div>
-</center>
+![Fig2](stirling.PNG)<br/>
+<a name="Fig2">**Figura 2**</a>: Esquema básico de las componentes de una máquina de Stirling <a href="#Ref3">[3]</a>.
 
 <p style="text-align: justify;"> Ahora bien, si alguna vez te has hecho un chocolate caliente, sabrás que cuando dejas tu taza sobre la mesa, esta no se mantiene caliente de forma infinita. A medida que pasa el tiempo el calor de la taza pasa al aire, que está más frío, lo que acaba enfriando tu taza hasta que alcanzar la temperatura ambiente. Es decir, la energía térmica que había en tu taza se ha "esparcido" hasta que las temperaturas se han igualado, momento a partir del cual nada más ocurre, todo se mantiene estático. Si intentamos hacer funcionar nuestra máquina de Stirling posándola sobre nuestra taza, solo funcionará durante el tiempo en el que ésta se esté enfriando. En el momento en el que alcance temperatura ambiente, el motor se parará. Como puedes observar, este "esparcimiento" de energía es lo que hace que la máquina se pare. Y es aquí donde todo se relaciona con el desorden.</p>
 
@@ -62,14 +50,14 @@ redirect-from:
 
 <p style="text-align: justify;"> La muerte térmica del universo es inevitable, pero es muy posible que antes de eso haya cualquier otro evento que acabe con la humanidad, por lo que no es algo que deba preocuparnos realmente.</p>
 
-<p style="text-align: justify;"> Lo que sí es un problema actual es la eficiencia. La crisis energética es un problema real, y las energías renovables a veces poseen eficiencias realmente bajas. Por ejemplo, la célula solar más eficiente y aún experimental, a fecha de febrero de 2022, tiene una eficiencia menor del 50\% <a href="#Ref4">[4], lo que significa que es incapaz de convertir en trabajo útil más de la mitad de la energía que nos llega del Sol. Conseguir formas de extracción de energía más eficientes y, sobre todo, más limpias, sí es un problema real, en el que cientos de científicos y científicas trabajan a diario, con el objetivo de hacer del mundo un lugar más habitable.</p>
+<p style="text-align: justify;"> Lo que sí es un problema actual es la eficiencia. La crisis energética es un problema real, y las energías renovables a veces poseen eficiencias realmente bajas. Por ejemplo, la célula solar más eficiente y aún experimental, a fecha de febrero de 2022, tiene una eficiencia menor del 50% <a href="#Ref4">[4]</a>, lo que significa que es incapaz de convertir en trabajo útil más de la mitad de la energía que nos llega del Sol. Conseguir formas de extracción de energía más eficientes y, sobre todo, más limpias, sí es un problema real, en el que cientos de científicos y científicas trabajan a diario, con el objetivo de hacer del mundo un lugar más habitable.</p>
 
 ---
 
 ### Referencias
 <a name="Ref1">[1]</a>: H. Callen (1985) Thermodynamics and an Introduction to Thermostatistics, Wiley, NY<br/>
-<a name="Ref2">[2]</a>: Blog Hyperphysics [http://hyperphysics.phy-astr.gsu.edu/hbasees/thermo/seclaw.htmlIBM Blog] <br/>
+<a name="Ref2">[2]</a>: Blog Hyperphysics [http://hyperphysics.phy-astr.gsu.edu/hbasees/thermo/seclaw.html] <br/>
 <a name="Ref3">[3]</a>: Wikimedia Commons [https://es.wikipedia.org/wiki/Motor_Stirling] <br/>
-<a name="Ref4">[4]</a>: NREL [https://www.nrel.govNREL /pv/cell-efficiency.html] <br/>
+<a name="Ref4">[4]</a>: NREL [https://www.nrel.govNREL/pv/cell-efficiency.html] <br/>
 
 
